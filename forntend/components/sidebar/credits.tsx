@@ -1,3 +1,5 @@
+"use server"
+
 import { getUserCredits } from "@/app/actions/tts"
 import { Coins, Sparkles } from "lucide-react";
 
