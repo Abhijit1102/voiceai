@@ -1,6 +1,6 @@
 "use client";
 
-import { LayoutDashboard, Wand2, Settings } from "lucide-react";
+import { LayoutDashboard, Wand2, Settings, FolderKanban } from "lucide-react";
 import { usePathname } from "next/navigation";
 import { SidebarMenuButton, SidebarMenuItem, useSidebar } from "../ui/sidebar";
 import Link from "next/link";
@@ -22,7 +22,12 @@ export default function SidebarMenuItems() {
       icon: Wand2,
     },
     {
-      title: "Project",
+      title: "Projects",
+      url: "/dashboard/projects",
+      icon: FolderKanban,
+    },
+    {
+      title: "Settings",
       url: "/dashboard/settings",
       icon: Settings,
     },
