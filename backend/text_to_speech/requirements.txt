@@ -1,0 +1,8 @@
+torchaudio
+modal
+pydantic
+fastapi
+requests
+chatterbox-tts
+numpy==1.26.0
+torch==2.6.0
